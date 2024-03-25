@@ -1,0 +1,2 @@
+include uw_mailman3_plugin/VERSION                                                       
+recursive-include uw_mailman3_plugin *
