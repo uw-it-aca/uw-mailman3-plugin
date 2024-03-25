@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 README = """
 See the README on `GitHub
@@ -16,7 +16,7 @@ url = "https://github.com/uw-it-aca/uw-mailman3-plugin"
 setup(
     name='UW-Mailman3-Plugin',
     version=VERSION,
-    packages=['uw_mailman3_plugin'],
+    packages=find_packages('.'),
     author="UW-IT T&LS",
     author_email="aca-it@uw.edu",
     include_package_data=True,
